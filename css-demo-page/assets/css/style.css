@@ -1,4 +1,48 @@
-body{
-    background-color:green
-    ;
+
+
+
+/*#DADDE8 #737C9C #E8E4DA #575757 #9C9583 */
+/* ref: https://codepen.io/lisa_c/pen/akjiy?editors=1100 */
+
+html {
+  box-sizing: border-box;
 }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+    background-color:#DADDE8;
+    
+    font-family:'Georgia';
+}
+header.primary{
+    background-color:#DADDE8;
+    text-align:center;
+} 
+nav ul { 
+   list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  
+    
+}
+nav li {
+  font-family: 'Playfair Display';
+  font-weight:500;
+  display:inline-block;
+  padding:1em;
+  font-size: 1.2em;
+ /* line-height: 40px;
+  height: 40px;*/
+  background-color:#737C9c;
+
+}
+ 
+nav a {
+  text-decoration: none;
+}
+h1
