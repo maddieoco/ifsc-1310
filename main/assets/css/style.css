@@ -1,0 +1,52 @@
+/*-----------HOMEPAGE STYLESHEET!----------------*/
+/*-----Box Sizing--------*/
+
+html { box-sizing: border-box;
+}
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+/*------Utility Styles------*/
+.container{
+    width:80vw;
+    margin:40px auto;
+    max-width:900px;
+}
+.img-right{
+  float:right;
+  padding:5px;
+  border:1px solid #c0c0c0;
+  margin: 10px 0 10px 20px;
+}
+
+.img-left{
+  float:left;
+  padding:5px;
+  border:1px solid #c0c0c0;
+  margin: 10px 20px 10px 0;
+}
+
+.img-center{
+  display:block;
+  padding:5px;
+  border:1px solid #c0c0c0;
+  margin: 20px auto;
+}
+
+/*------Global Styles------*/
+body{
+  font-family:Playfair Display;
+}
+h1 {background-color: #ffffff;}
+nav ul {
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-around ;
+    flex-direction: row;
+}
+html section { 
+    background-color: #ffffff;
+    
+}

@@ -1,9 +1,23 @@
 
 
+/*stylesheet for CSS Demo assignment*/
+/* Color Theme Swatches in Hex
+.Color-Theme-12-1-hex { color: #4C7C8A; }
+.Color-Theme-12-2-hex { color: #B8B3AD; }
+.Color-Theme-12-3-hex { color: #ABA69D; }
+.Color-Theme-12-4-hex { color: #9E6332; }
+.Color-Theme-12-5-hex { color: #DE763B; */ 
 
-/*#DADDE8 #737C9C #E8E4DA #575757 #9C9583 */
+/* Color Theme Swatches in RGBA 
+.Color-Theme-12-1-rgba { color: rgba(76, 124, 137, 1); }
+.Color-Theme-12-2-rgba { color: rgba(183, 179, 172, 1); }
+.Color-Theme-12-3-rgba { color: rgba(170, 165, 157, 1); }
+.Color-Theme-12-4-rgba { color: rgba(158, 99, 49, 1); }
+.Color-Theme-12-5-rgba { color: rgba(221, 117, 58, 1); } */
 /* ref: https://codepen.io/lisa_c/pen/akjiy?editors=1100 */
 
+
+/*----------------Box Sizing----------------*/
 html {
   box-sizing: border-box;
 }
@@ -12,36 +26,51 @@ html {
 *:after {
   box-sizing: inherit;
 }
+/* ---------------Utility Styles----------------- */
 
+
+.container{
+  width:80vw;
+  margin:40px auto;
+  max-width:900px;
+}
+/*------------Global Styles----------------------*/
 body{
-    background-color:#DADDE8;
+    background-color:#FFFFFF;
     
     font-family:'Georgia';
 }
 header.primary{
-    background-color:#DADDE8;
+
     text-align:center;
 } 
 nav ul { 
-   list-style: none;
-  text-align: center;
-  padding: 0;
+  
+ 
   margin: 0;
   
-    
-}
-nav li {
   font-family: 'Playfair Display';
-  font-weight:500;
-  display:inline-block;
-  padding:1em;
-  font-size: 1.2em;
+  background-color: rgba(76, 124, 137, .3);
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+ padding:5px
+ 
+ ;
+  
  /* line-height: 40px;
   height: 40px;*/
-  background-color:#737C9c;
-
+   /*padding:1em;*/
+ /*text-align: center;*/
 }
- 
+ nav ul li {
+    background-color: rgba(76, 124, 137, .5); 
+    list-style-type: none;
+    font-weight:500;
+    font-size: 1.2em;
+    padding:5px;
+    
+ }
 nav a {
   text-decoration: none;
 }
