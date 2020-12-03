@@ -38,11 +38,25 @@ nav ul li a:link, a:visited {
   
 }
 section { 
-    background-color: #ffffff;
-    padding:1rem; }
+    background-color: #acacac;
+    padding:1rem; 
+    margin-bottom:1rem;
+}
     
     
 section li a:link, a:visited {
   color:#000000;
-  background-color#ffffff
+  background-color :#ffffff;
+}
+.proj {
+  background-color:#ffffff;
+  list-style:none;
+  text-decoration:none;
+  width:150px;
+  height:150px;
+  text-align:center;
+  margin:10px;
+  padding:5px;
+  float:left;
+  
 }
