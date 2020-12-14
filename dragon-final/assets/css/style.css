@@ -143,9 +143,6 @@ nav.primary ul li, nav.primary a:link{
     
 }
 #tiles {
-display:flex;
-flex-direction:row;
-justify-content:space-between;
 border-bottom:1px solid #c0c0c0;
 padding-bottom:2.6rem;
 }
@@ -158,10 +155,15 @@ padding-bottom:2.6rem;
   font-size:.9rem;
 }*/
 
-#tiles article.element:hover{
-  box-shadow: 0 8px 16px rgba(0,0,0,.4);
-}
 
+
+gallery{
+ overflow:hidden  ; 
+ height:800px;
+}
+div.gallery{
+    height:700px;
+}
 table {
   border-collapse: collapse;
   width: 100%;
